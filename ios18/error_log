@@ -1,0 +1,4 @@
+[02-Dec-2019 19:33:15 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1691648 bytes) in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/system/core/Exceptions.php on line 244
+[03-Dec-2019 15:54:13 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/application/models/JobsprofileModel.php on line 540
+[03-Dec-2019 18:10:39 Asia/Jakarta] PHP Fatal error:  Cannot use [] for reading in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/application/models/JobsprofileModel.php on line 584
+[04-Dec-2019 15:32:13 Asia/Jakarta] PHP Fatal error:  Cannot use [] for reading in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/application/models/JobsprofileModel.php on line 597

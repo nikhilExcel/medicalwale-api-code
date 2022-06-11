@@ -1,0 +1,17 @@
+[18-May-2020 18:26:14 Asia/Calcutta] PHP Notice:  Undefined index: type in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/upload_record_android.php on line 43
+[18-May-2020 18:58:11 Asia/Calcutta] PHP Notice:  Undefined index: type in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/upload_record_android.php on line 43
+[25-May-2020 00:35:26 Asia/Calcutta] PHP Notice:  Undefined index: token in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 12
+[25-May-2020 00:35:26 Asia/Calcutta] PHP Notice:  Undefined index: agent in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 13
+[25-May-2020 00:35:26 Asia/Calcutta] PHP Notice:  Undefined index: image in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 21
+[25-May-2020 00:35:29 Asia/Calcutta] PHP Notice:  Undefined index: token in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 12
+[25-May-2020 00:35:29 Asia/Calcutta] PHP Notice:  Undefined index: agent in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 13
+[25-May-2020 00:35:29 Asia/Calcutta] PHP Notice:  Undefined index: image in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 21
+[25-May-2020 02:19:57 Asia/Calcutta] PHP Notice:  Undefined index: token in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 12
+[25-May-2020 02:19:57 Asia/Calcutta] PHP Notice:  Undefined index: agent in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 13
+[25-May-2020 02:19:57 Asia/Calcutta] PHP Notice:  Undefined index: image in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 21
+[25-May-2020 02:19:59 Asia/Calcutta] PHP Notice:  Undefined index: token in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 12
+[25-May-2020 02:19:59 Asia/Calcutta] PHP Notice:  Undefined index: agent in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 13
+[25-May-2020 02:19:59 Asia/Calcutta] PHP Notice:  Undefined index: image in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/add_patient.php on line 21
+[22-Jun-2020 14:16:12 Asia/Calcutta] PHP Notice:  Undefined index: type in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/upload_record_android.php on line 43
+[22-Jun-2020 14:16:16 Asia/Calcutta] PHP Notice:  Undefined offset: 1 in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/upload_record_android.php on line 80
+[22-Jun-2020 14:16:16 Asia/Calcutta] PHP Notice:  Undefined offset: 1 in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v52/health_record/upload_record_android.php on line 88

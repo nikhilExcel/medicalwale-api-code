@@ -1,0 +1,637 @@
+[10-Oct-2015 09:14:01 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/winwin/application/views/admin/users.php on line 21
+[10-Oct-2015 09:14:06 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/winwin/application/views/admin/users.php on line 21
+[17-Mar-2017 06:45:23 UTC] PHP Fatal error:  Call to undefined method User::response() in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 53
+[17-Mar-2017 10:30:53 UTC] PHP Parse error:  syntax error, unexpected 'addRide_post' (T_STRING), expecting variable (T_VARIABLE) in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 86
+[17-Mar-2017 10:31:22 UTC] PHP Parse error:  syntax error, unexpected 'addRide_post' (T_STRING), expecting variable (T_VARIABLE) in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 86
+[17-Mar-2017 10:46:34 UTC] PHP Parse error:  syntax error, unexpected 'addRide_post' (T_STRING), expecting variable (T_VARIABLE) in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 86
+[31-Mar-2017 07:46:48 UTC] PHP Fatal error:  Call to a member function row_array() on a non-object in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 115
+[31-Mar-2017 07:50:30 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compiled_select() in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 111
+[03-Apr-2017 08:26:09 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 110
+[03-Apr-2017 08:26:18 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 110
+[06-Apr-2017 06:00:02 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 45
+[06-Apr-2017 06:01:10 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 243
+[06-Apr-2017 06:03:55 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 243
+[06-Apr-2017 06:04:53 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 119
+[06-Apr-2017 06:04:57 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 119
+[06-Apr-2017 06:05:06 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 119
+[06-Apr-2017 06:05:25 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 119
+[06-Apr-2017 06:05:39 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 243
+[06-Apr-2017 06:24:04 UTC] PHP Fatal error:  Function name must be a string in /home/icanstud/public_html/taxiapp/application/controllers/admin.php on line 33
+[06-Apr-2017 06:24:39 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/icanstud/public_html/taxiapp/application/controllers/admin.php on line 37
+[06-Apr-2017 06:25:50 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:27:25 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:49:18 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:49:29 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:49:39 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:53:45 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/icanstud/public_html/taxiapp/application/controllers/admin.php on line 36
+[06-Apr-2017 06:57:04 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:57:08 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:57:19 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:57:39 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 06:58:01 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 07:00:15 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 07:00:24 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 07:05:44 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 07:06:28 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:07:10 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:07:15 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:12:05 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:12:14 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:12:20 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 07:12:28 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:12:53 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:13:14 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 07:13:16 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/icanstud/public_html/taxiapp/application/views/admin/users.php on line 21
+[06-Apr-2017 10:54:38 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 10:57:22 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 10:57:41 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 10:58:31 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 10:59:39 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 10:59:46 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 11:00:02 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 11:01:05 UTC] PHP Fatal error:  Call to undefined method CI_Session::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[06-Apr-2017 11:01:07 UTC] PHP Fatal error:  Call to undefined method CI_Session::session() in /home/icanstud/public_html/taxiapp/application/views/admin/login.php on line 234
+[08-Apr-2017 11:25:12 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/icanstud/public_html/taxiapp/application/views/ssp.class.php on line 462
+[08-Apr-2017 11:25:24 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/icanstud/public_html/taxiapp/application/views/ssp.class.php on line 456
+[08-Apr-2017 11:26:34 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/icanstud/public_html/taxiapp/application/views/ssp.class.php on line 456
+[08-Apr-2017 11:44:44 UTC] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/icanstud/public_html/taxiapp/application/controllers/admin.php on line 178
+[14-Apr-2017 12:08:14 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_result::order_by() in /home/icanstud/public_html/taxiapp/application/controllers/api/driver.php on line 66
+[14-Apr-2017 12:08:28 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_result::order_by() in /home/icanstud/public_html/taxiapp/application/controllers/api/driver.php on line 65
+[14-Apr-2017 12:09:27 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_result::order_by() in /home/icanstud/public_html/taxiapp/application/controllers/api/driver.php on line 65
+[21-Apr-2017 06:57:47 UTC] PHP Fatal error:  Call to undefined function now() in /home/icanstud/public_html/taxiapp/application/controllers/admin.php on line 689
+[22-Apr-2017 06:55:23 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/settings.php on line 33
+[22-Apr-2017 06:55:41 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/settings.php on line 33
+[22-Apr-2017 06:55:47 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/settings.php on line 33
+[22-Apr-2017 06:56:21 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/settings.php on line 33
+[22-Apr-2017 06:56:26 UTC] PHP Fatal error:  Class 'Session' not found in /home/icanstud/public_html/taxiapp/application/views/admin/settings.php on line 33
+[22-Apr-2017 09:24:53 UTC] PHP Fatal error:  Call to undefined method CI_Session::user_data() in /home/icanstud/public_html/taxiapp/application/controllers/admin.php on line 535
+[24-Apr-2017 13:21:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/icanstud/public_html/taxiapp/application/controllers/admin.php on line 35
+[27-Apr-2017 09:31:56 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::row() in /home/icanstud/public_html/taxiapp/application/controllers/api/user.php on line 314
+[27-Apr-2017 09:48:40 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::view() in /home/icanstud/public_html/taxiapp/application/controllers/user.php on line 187
+[15-May-2018 05:52:45 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/views/admin/subtype.php on line 45
+[15-May-2018 08:18:43 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 816
+[17-May-2018 08:00:16 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/handsom4/public_html/amb/application/controllers/user.php on line 72
+[17-May-2018 08:01:42 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/handsom4/public_html/amb/application/controllers/user.php on line 72
+[17-May-2018 09:49:33 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:54:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:54:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:54:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:54:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:54:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:23 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:41 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:45 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:47 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:47 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[17-May-2018 23:55:48 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:17:38 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:17:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:17:45 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:18:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:18:10 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:18:11 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:18:11 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:18:11 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:18:33 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:18:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:20:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 00:21:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:17 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:17 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:46 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:10:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:11:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:11:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:11:24 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:11:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:11:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:09 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:30 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:45 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:12:53 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:13:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:13:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:13:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:13:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:13:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:47 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:14:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:15:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:15:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:15:52 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:16:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:16:09 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:16:18 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:16:20 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:16:24 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:16:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:16:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:17:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:17:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:17:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:17:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:17:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:17:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:17:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:18:52 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 01:19:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users.php on line 70
+[18-May-2018 02:42:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'uid' (T_STRING) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 312
+[18-May-2018 02:55:36 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 312
+[18-May-2018 02:56:19 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 328
+[18-May-2018 02:56:41 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 328
+[18-May-2018 03:50:17 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 328
+[18-May-2018 03:51:54 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 328
+[18-May-2018 03:52:26 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 328
+[18-May-2018 03:54:03 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 328
+[18-May-2018 03:54:48 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 328
+[18-May-2018 03:55:57 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 03:56:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 04:00:27 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 04:02:30 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 04:02:41 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 04:03:39 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 04:04:21 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 04:05:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 303
+[18-May-2018 04:22:19 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:22:24 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:23:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:24:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:50:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:56:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:58:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:59:04 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 04:59:09 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 05:31:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 05:32:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/models/users_new.php on line 70
+[18-May-2018 05:32:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/handsom4/public_html/amb/application/models/users_new.php on line 78
+[18-May-2018 05:33:11 America/Chicago] PHP Fatal error:  Call to a member function chk_dup() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 37
+[18-May-2018 05:49:10 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 293
+[18-May-2018 05:50:16 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 293
+[18-May-2018 06:15:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 206
+[18-May-2018 06:22:56 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 293
+[18-May-2018 06:37:40 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 298
+[19-May-2018 02:16:17 America/Chicago] PHP Parse error:  syntax error, unexpected '!' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 314
+[19-May-2018 02:23:29 America/Chicago] PHP Parse error:  syntax error, unexpected '!' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 314
+[19-May-2018 02:24:19 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 350
+[19-May-2018 02:32:43 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 322
+[19-May-2018 02:33:43 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 322
+[19-May-2018 02:38:43 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 322
+[19-May-2018 03:00:22 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 322
+[19-May-2018 03:06:13 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 322
+[19-May-2018 07:16:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 85
+[19-May-2018 07:31:34 America/Chicago] PHP Parse error:  syntax error, unexpected '!' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 35
+[19-May-2018 08:06:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 127
+[19-May-2018 08:36:06 America/Chicago] PHP Fatal error:  Call to undefined method Users_new::fetch_user() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 390
+[19-May-2018 08:37:16 America/Chicago] PHP Fatal error:  Call to undefined method Users_new::fetch_user() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 390
+[19-May-2018 08:37:51 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 393
+[21-May-2018 02:19:57 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 42
+[23-May-2018 01:25:35 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 100
+[23-May-2018 01:37:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 113
+[24-May-2018 00:42:31 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 454
+[24-May-2018 00:44:57 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 458
+[24-May-2018 01:47:54 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 896
+[24-May-2018 04:01:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 338
+[24-May-2018 04:02:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 338
+[24-May-2018 04:02:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 338
+[24-May-2018 04:03:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 338
+[24-May-2018 04:03:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 338
+[24-May-2018 04:07:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 336
+[24-May-2018 04:24:02 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 329
+[24-May-2018 04:24:50 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 329
+[24-May-2018 04:26:02 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 338
+[24-May-2018 04:28:05 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 332
+[24-May-2018 04:28:35 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 332
+[24-May-2018 04:39:37 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 332
+[24-May-2018 04:41:20 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 332
+[24-May-2018 04:42:59 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 332
+[25-May-2018 02:36:30 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 435
+[25-May-2018 02:37:36 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 435
+[25-May-2018 02:39:11 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 435
+[25-May-2018 02:40:36 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 435
+[25-May-2018 02:41:31 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 435
+[25-May-2018 02:43:24 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 435
+[25-May-2018 02:44:26 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 435
+[25-May-2018 02:58:45 America/Chicago] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 79
+[25-May-2018 04:08:41 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 456
+[28-May-2018 02:19:11 America/Chicago] PHP Parse error:  syntax error, unexpected ''confir' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 313
+[28-May-2018 05:16:45 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 152
+[28-May-2018 05:16:47 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 152
+[28-May-2018 05:17:00 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 152
+[28-May-2018 05:22:55 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 152
+[28-May-2018 05:24:19 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 152
+[28-May-2018 05:25:51 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 152
+[29-May-2018 01:36:01 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 980
+[29-May-2018 01:38:10 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 46
+[29-May-2018 01:38:20 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 46
+[29-May-2018 01:39:12 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 46
+[29-May-2018 01:42:18 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 223
+[29-May-2018 01:44:10 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 47
+[29-May-2018 01:48:29 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 47
+[29-May-2018 01:55:57 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1571
+[29-May-2018 01:56:06 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1571
+[29-May-2018 02:03:59 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 46
+[29-May-2018 03:03:18 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 89
+[29-May-2018 03:03:18 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/views/admin/Amb_setting.php on line 89
+[29-May-2018 06:45:33 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1552
+[30-May-2018 00:42:07 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:42:20 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:44:21 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:44:53 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:44:56 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:45:04 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:45:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:46:06 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:46:11 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:46:46 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:47:46 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:55:57 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:56:00 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:56:45 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:56:46 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:57:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:59:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:59:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 00:59:42 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/handsom4/public_html/amb/application/models/users.php on line 67
+[30-May-2018 01:06:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1238
+[30-May-2018 01:06:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1238
+[30-May-2018 01:08:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1238
+[30-May-2018 01:25:29 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-May-2018 04:34:08 America/Chicago] PHP Fatal error:  Cannot redeclare Admin::load_subtype() in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1826
+[30-May-2018 04:34:09 America/Chicago] PHP Fatal error:  Cannot redeclare Admin::load_subtype() in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1826
+[30-May-2018 07:55:15 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1962
+[30-May-2018 08:24:25 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 915
+[31-May-2018 00:11:56 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:12:09 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:12:27 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:13:53 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:14:30 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:17:28 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:19:51 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:19:56 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:20:00 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:20:10 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:20:21 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:20:39 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:21:02 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:22:39 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:22:41 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:22:49 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:23:28 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 224
+[31-May-2018 00:39:16 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 240
+[31-May-2018 00:39:28 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 240
+[31-May-2018 00:39:35 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 240
+[31-May-2018 02:17:28 America/Chicago] PHP Fatal error:  Call to undefined method User_new::response() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 496
+[31-May-2018 02:18:35 America/Chicago] PHP Fatal error:  Call to undefined method User_new::response() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 496
+[31-May-2018 04:11:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 484
+[31-May-2018 04:11:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 484
+[31-May-2018 04:13:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 484
+[31-May-2018 04:13:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 484
+[31-May-2018 04:13:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 484
+[31-May-2018 04:13:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 485
+[31-May-2018 04:13:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 485
+[31-May-2018 05:27:57 America/Chicago] PHP Fatal error:  Class 'REST_Controller' not found in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 7
+[31-May-2018 05:27:58 America/Chicago] PHP Fatal error:  Class 'REST_Controller' not found in /home1/handsom4/public_html/amb/application/controllers/api/user.php on line 7
+[31-May-2018 05:28:53 America/Chicago] PHP Warning:  Unterminated comment starting line 1253 in /home1/handsom4/public_html/amb/application/libraries/REST_Controller.php on line 1253
+[31-May-2018 05:28:53 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/libraries/REST_Controller.php on line 1255
+[31-May-2018 07:51:55 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user.php on line 305
+[31-May-2018 07:54:24 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home1/handsom4/public_html/amb/application/controllers/user.php on line 306
+[31-May-2018 08:24:51 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32 bytes) in /home1/handsom4/public_html/amb/system/core/Common.php on line 121
+[31-May-2018 09:16:31 America/Chicago] PHP Fatal error:  Call to undefined method User::response() in /home1/handsom4/public_html/amb/application/controllers/user.php on line 385
+[31-May-2018 09:17:01 America/Chicago] PHP Fatal error:  Call to undefined method User::response() in /home1/handsom4/public_html/amb/application/controllers/user.php on line 385
+[01-Jun-2018 06:29:38 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user.php on line 313
+[02-Jun-2018 02:31:36 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 59
+[02-Jun-2018 02:31:36 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 59
+[02-Jun-2018 02:31:36 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 59
+[02-Jun-2018 07:06:39 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1971
+[02-Jun-2018 07:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1971
+[02-Jun-2018 08:00:43 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1971
+[05-Jun-2018 03:03:24 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user.php on line 305
+[05-Jun-2018 03:06:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$fcm' (T_VARIABLE), expecting ',' or ';' in /home1/handsom4/public_html/amb/application/controllers/user.php on line 305
+[05-Jun-2018 03:06:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$fcm' (T_VARIABLE), expecting ',' or ';' in /home1/handsom4/public_html/amb/application/controllers/user.php on line 305
+[05-Jun-2018 03:06:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$fcm' (T_VARIABLE), expecting ',' or ';' in /home1/handsom4/public_html/amb/application/controllers/user.php on line 305
+[05-Jun-2018 03:06:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$fcm' (T_VARIABLE), expecting ',' or ';' in /home1/handsom4/public_html/amb/application/controllers/user.php on line 305
+[06-Jun-2018 06:44:50 America/Chicago] PHP Fatal error:  Call to undefined method Admin::response() in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1784
+[06-Jun-2018 06:45:49 America/Chicago] PHP Fatal error:  Call to undefined method Admin::response() in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 1784
+[07-Jun-2018 01:51:23 America/Chicago] PHP Fatal error:  Call to undefined function query() in /home1/handsom4/public_html/amb/application/controllers/user.php on line 381
+[07-Jun-2018 02:11:47 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home1/handsom4/public_html/amb/application/controllers/user.php on line 377
+[07-Jun-2018 02:23:37 America/Chicago] PHP Fatal error:  Cannot access empty property in /home1/handsom4/public_html/amb/application/controllers/user.php on line 385
+[08-Jun-2018 05:06:47 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 126
+[09-Jun-2018 01:43:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 230
+[09-Jun-2018 07:43:11 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 667
+[09-Jun-2018 07:43:52 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 667
+[09-Jun-2018 07:44:43 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 667
+[09-Jun-2018 07:45:52 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 667
+[09-Jun-2018 08:17:12 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 698
+[09-Jun-2018 08:18:01 America/Chicago] PHP Fatal error:  Call to undefined function set_realpath() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 660
+[09-Jun-2018 08:19:32 America/Chicago] PHP Fatal error:  Call to undefined function set_realpath() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 661
+[09-Jun-2018 08:20:44 America/Chicago] PHP Fatal error:  Call to undefined function set_realpath() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 661
+[09-Jun-2018 08:22:53 America/Chicago] PHP Parse error:  syntax error, unexpected '$autoload' (T_VARIABLE), expecting function (T_FUNCTION) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 7
+[09-Jun-2018 08:23:29 America/Chicago] PHP Fatal error:  Call to undefined function set_realpath() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 661
+[09-Jun-2018 08:23:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'file_put_contents' (T_STRING), expecting ')' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 663
+[09-Jun-2018 08:24:30 America/Chicago] PHP Fatal error:  Call to undefined function set_realpath() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 672
+[09-Jun-2018 08:43:55 America/Chicago] PHP Fatal error:  Call to undefined function set_realpath() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 663
+[11-Jun-2018 01:32:42 America/Chicago] PHP Parse error:  syntax error, unexpected '$filename1' (T_VARIABLE) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 664
+[11-Jun-2018 02:31:48 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 707
+[11-Jun-2018 02:32:14 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 707
+[11-Jun-2018 02:34:07 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 515
+[11-Jun-2018 02:34:07 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 515
+[11-Jun-2018 02:34:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 682
+[11-Jun-2018 02:48:49 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 711
+[11-Jun-2018 02:53:16 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 707
+[11-Jun-2018 02:53:22 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 707
+[11-Jun-2018 02:53:28 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 707
+[11-Jun-2018 02:53:30 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 707
+[11-Jun-2018 03:55:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 221
+[11-Jun-2018 03:56:07 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 710
+[11-Jun-2018 03:56:39 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 710
+[11-Jun-2018 03:57:59 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 710
+[11-Jun-2018 04:07:48 America/Chicago] PHP Fatal error:  Cannot redeclare User_new::dashboarb_to() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 733
+[11-Jun-2018 07:54:40 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:55:11 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:55:55 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:56:39 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:56:48 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:56:57 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:56:57 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:56:57 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[11-Jun-2018 07:57:34 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 860
+[12-Jun-2018 01:29:02 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 444
+[12-Jun-2018 01:29:04 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 444
+[12-Jun-2018 01:29:16 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 444
+[12-Jun-2018 01:29:30 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 618
+[12-Jun-2018 01:35:54 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 605
+[12-Jun-2018 01:35:54 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 605
+[12-Jun-2018 01:36:14 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 605
+[12-Jun-2018 01:36:16 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 605
+[12-Jun-2018 01:37:03 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 179
+[12-Jun-2018 01:46:42 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user.php on line 497
+[12-Jun-2018 05:02:07 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 221
+[12-Jun-2018 05:05:17 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 81
+[12-Jun-2018 06:51:24 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 909
+[12-Jun-2018 06:54:56 America/Chicago] PHP Parse error:  syntax error, unexpected ''Hello <b' (T_ENCAPSED_AND_WHITESPACE) in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 266
+[12-Jun-2018 06:54:59 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 327
+[12-Jun-2018 07:25:31 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home1/handsom4/public_html/amb/application/controllers/user.php on line 701
+[13-Jun-2018 08:52:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/handsom4/public_html/amb/application/views/admin/Commission.php on line 229
+[18-Jun-2018 02:04:49 America/Chicago] PHP Fatal error:  Call to undefined method User_new::response() in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 2067
+[18-Jun-2018 04:19:30 America/Chicago] PHP Parse error:  syntax error, unexpected ''reg' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 363
+[18-Jun-2018 04:33:49 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home1/handsom4/public_html/amb/application/controllers/user_new.php on line 2087
+[18-Jun-2018 05:37:57 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home1/handsom4/public_html/amb/application/controllers/admin.php on line 530
+[25-Sep-2018 06:22:39 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Sep-2018 06:24:34 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[14-Feb-2019 12:56:30 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 06:51:30 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:03:25 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:03:34 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:06:57 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:12:37 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:13:55 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:15:27 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:16:31 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:16:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:17:11 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:18:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:18:13 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2177
+[15-Feb-2019 07:20:30 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2215
+[15-Feb-2019 07:20:32 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2215
+[15-Feb-2019 07:21:24 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 2215
+[15-Feb-2019 07:24:28 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 680
+[15-Feb-2019 07:24:29 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 680
+[15-Feb-2019 07:24:59 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 680
+[15-Feb-2019 07:25:01 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 680
+[15-Feb-2019 07:25:23 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 680
+[15-Feb-2019 07:27:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 682
+[15-Feb-2019 07:27:26 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 682
+[15-Feb-2019 07:27:27 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 682
+[15-Feb-2019 07:32:10 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 678
+[15-Feb-2019 07:32:11 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 678
+[15-Feb-2019 07:32:13 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/handsintech/public_html/amb/application/controllers/user_new.php on line 678
+[15-Feb-2019 07:44:25 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:44:41 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:45:07 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:45:42 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:46:02 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 07:50:53 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[15-Feb-2019 08:40:42 UTC] PHP Fatal error:  Call to undefined method Admin::response() in /home/handsintech/public_html/amb/application/controllers/admin.php on line 4495
+[22-Mar-2019 06:29:04 UTC] PHP Fatal error:  Call to undefined method User::response() in /home/handsintech/public_html/amb/application/controllers/user.php on line 673
+[22-Mar-2019 06:29:07 UTC] PHP Fatal error:  Call to undefined method User::response() in /home/handsintech/public_html/amb/application/controllers/user.php on line 673
+[22-Mar-2019 06:29:12 UTC] PHP Fatal error:  Call to undefined method User::response() in /home/handsintech/public_html/amb/application/controllers/user.php on line 673
+[22-Mar-2019 06:29:39 UTC] PHP Fatal error:  Call to undefined method User::response() in /home/handsintech/public_html/amb/application/controllers/user.php on line 673
+[22-Mar-2019 07:52:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home/handsintech/public_html/amb/application/controllers/api/user.php on line 32
+[22-Mar-2019 07:52:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home/handsintech/public_html/amb/application/controllers/api/user.php on line 32
+[22-Mar-2019 07:54:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/handsintech/public_html/amb/application/controllers/api/user.php on line 193
+[22-Mar-2019 07:56:41 UTC] PHP Fatal error:  Class 'REST_Controller' not found in /home/handsintech/public_html/amb/application/controllers/api/user.php on line 7
+[22-Mar-2019 07:57:08 UTC] PHP Fatal error:  Class 'REST_Controller' not found in /home/handsintech/public_html/amb/application/controllers/api/user.php on line 7
+[22-Mar-2019 07:57:51 UTC] PHP Fatal error:  Class 'REST_Controller' not found in /home/handsintech/public_html/amb/application/controllers/api/user.php on line 7
+[22-Mar-2019 08:58:53 UTC] PHP Warning:  Unterminated comment starting line 1287 in /home/handsintech/public_html/amb/application/libraries/REST_Controller.php on line 1287
+[22-Mar-2019 08:58:53 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/handsintech/public_html/amb/application/libraries/REST_Controller.php on line 1290
+[22-Mar-2019 09:00:29 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home/handsintech/public_html/amb/application/libraries/REST_Controller.php on line 131
+[22-Mar-2019 09:00:30 UTC] PHP Warning:  Unterminated comment starting line 1287 in /home/handsintech/public_html/amb/application/libraries/REST_Controller.php on line 1287
+[22-Mar-2019 09:00:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/handsintech/public_html/amb/application/libraries/REST_Controller.php on line 1290
+[22-Mar-2019 10:35:05 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/handsintech/public_html/amb/application/controllers/api/user.php on line 401
+[22-Mar-2019 12:08:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/application/controllers/admin.php(17): CI_Controller->__const in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php on line 92
+[22-Mar-2019 12:09:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/application/controllers/admin.php(17): CI_Controller->__const in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php on line 92
+[22-Mar-2019 12:11:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/application/controllers/admin.php(17): CI_Controller->__const in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php on line 92
+[22-Mar-2019 12:12:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php:92
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB_driver.php(116): CI_DB_mysql_driver->db_pconnect()
+#1 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/DB.php(149): CI_DB_driver->initialize()
+#2 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(347): DB(Array, NULL)
+#3 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(1172): CI_Loader->database()
+#4 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#5 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/core/Controller.php(52): CI_Loader->initialize()
+#6 /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/application/controllers/admin.php(17): CI_Controller->__const in /home/h8so2sh3q97n/public_html/aegishealthsolutions.com/amb/system/database/drivers/mysql/mysql_driver.php on line 92
+[04-May-2019 12:51:17 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:52:10 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:52:26 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:53:01 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:54:24 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:54:32 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:54:40 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:54:58 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:55:00 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 12:55:04 UTC] PHP Fatal error:  Cannot redeclare User_new::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user_new.php on line 2231
+[04-May-2019 13:02:14 UTC] PHP Fatal error:  Cannot redeclare User::getTypes() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/User.php on line 490
+[06-May-2019 09:04:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_result::row_result() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:299
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->bank_detail_get()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 299
+[06-May-2019 11:20:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:416
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->getfaredata()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 416
+[06-May-2019 11:20:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:416
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->getfaredata()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 416
+[06-May-2019 11:21:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:416
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 416
+[06-May-2019 11:21:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:416
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 416
+[06-May-2019 11:22:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:417
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 417
+[06-May-2019 11:22:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:417
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 417
+[06-May-2019 11:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:417
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 417
+[06-May-2019 12:49:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 422
+[07-May-2019 09:48:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:435
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 435
+[07-May-2019 09:50:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:437
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 437
+[07-May-2019 09:51:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::GetDrivingDistance() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:437
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 437
+[07-May-2019 10:52:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on array in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:424
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 424
+[07-May-2019 10:55:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on array in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:424
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 424
+[07-May-2019 10:56:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on array in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:424
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->faredata_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 424
+[08-May-2019 09:19:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_driver::row() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php:73
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(432): User->profile_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(419): REST_Controller->_fire_method(Array, Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(326): REST_Controller->_remap('profile', Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#4 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php on line 73
+[08-May-2019 09:20:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_driver::row() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php:73
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(432): User->profile_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(419): REST_Controller->_fire_method(Array, Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(326): REST_Controller->_remap('profile', Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#4 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php on line 73
+[08-May-2019 09:20:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_driver::row_array() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php:73
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(432): User->profile_post()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(419): REST_Controller->_fire_method(Array, Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(326): REST_Controller->_remap('profile', Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#4 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php on line 73
+[06-Apr-2020 09:29:34 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/models/users.php on line 67
+[07-Apr-2020 13:53:34 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php:95
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(432): User->profile_post('format', 'json')
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(419): REST_Controller->_fire_method(Array, Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(326): REST_Controller->_remap('profile', Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#4 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php on line 95
+[07-Apr-2020 13:53:58 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php:95
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(432): User->profile_post('format', 'json')
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/libraries/REST_Controller.php(419): REST_Controller->_fire_method(Array, Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(326): REST_Controller->_remap('profile', Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#4 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/api/user.php on line 95
+[13-Apr-2020 11:00:33 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:1052
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->Completeride()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 1052
+[13-Apr-2020 11:01:27 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php:1052
+Stack trace:
+#0 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/system/core/CodeIgniter.php(360): User->Completeride()
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/index.php(203): require_once('/home/h8so2sh3q...')
+#2 {main}
+  thrown in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/amb/application/controllers/user.php on line 1052

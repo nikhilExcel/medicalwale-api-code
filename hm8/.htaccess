@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+   Header set Access-Control-Allow-Origin "*"
+<IfModule mod_headers.c>
+  <filesmatch "\.(php)$">
+    Header set Access-Control-Allow-Origin "https://medicalwale.com"
+    # Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+    Header set Access-Control-Allow-Headers "access-control-allow-origin, auth-key, authorizations, client-service, content-type, user-id"
+    Header set Access-Control-Allow-Credentials "true"
+  </filesmatch>
+</IfModule>

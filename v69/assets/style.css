@@ -1,0 +1,151 @@
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087C3;
+  text-decoration: none;
+}
+
+ @media screen, print {
+         p,h3,h1 {font-family: arial;}	
+         
+      }
+
+
+body {
+  margin: 0 auto; 
+  color: #555555;
+  background: #fff; 
+  font-family: Arial, sans-serif; 
+  font-size: 14px;
+ page-break-inside: auto;
+}
+
+
+
+header {
+ text-align: center;
+}
+
+main{
+  border: 1px solid #cccaca;
+}
+
+#logo {
+  margin-top: 0px;
+}
+
+#logo img {
+  width:100%;
+}
+
+#logo h1 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+
+#details {
+  margin-bottom: 50px;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #207ae2;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+}
+
+#client .name {
+	font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+#report {
+  float: right;
+  text-align: right;
+}
+
+#report h1 {
+  color: #0087C3;
+  font-size: 2.4em;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0  0 10px 0;
+}
+
+#report .date {
+  font-size: 1.1em;
+  color: #777777;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table th {
+  padding: 8px;
+  background: #EEEEEE;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+table td {
+  padding: 10px;
+  background: #EEEEEE;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+table th {
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+table .header {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600; 
+	background: #049341;
+    color: #fff;
+}
+
+table .desc {
+  text-align: center;
+}
+
+
+
+footer {
+  color: #777777;
+  width: 100%;
+  height: 35px;
+  bottom: 0;
+  border-top: 1px solid #cccaca;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.mb-0{margin-bottom:3px !important;}
+.table-head th,.table-head td{background:none!important;text-align:left !important;border:none;padding:5px!important;}
+
+sup { 
+  vertical-align: super;
+  font-size: smaller;
+}

@@ -1,0 +1,48 @@
+<?php
+require_once("../config.php");
+date_default_timezone_set('Asia/Calcutta');
+$current_date = date('Y-m-d H:i:s');
+$reg_id_ios='';
+$reg_id_android='';
+
+$sys_time       = date('H:i');
+$dictionary_sql = "SELECT * FROM schedule_notification WHERE schedule_status=1 AND schedule_date >= '2019-09-25'";
+$dictionary_res = mysqli_query($hconnection, $dictionary_sql);
+$count_data     = mysqli_num_rows($dictionary_res);
+
+if ($count_data > 0) {
+    while ($row_main = mysqli_fetch_array($dictionary_res)) {
+        $id                = $row_main['id'];
+        $agent_type        = $row_main['agent_type'];
+        $listing_id        = $row_main['listing_id'];
+        $post_id           = $row_main['post_id'];
+        $order_id          = $row_main['order_id'];
+        $order_date        = date('Y-m-d', strtotime($row_main['order_date']));
+        $order_status      = $row_main['order_status'];
+        $booking_id        = $row_main['booking_id'];
+        $invoice_no        = $row_main['invoice_no'];
+        $notification_type = $row_main['notification_type'];
+        $notification_date = date('Y-m-d', strtotime($row_main['notification_date']));
+        $package_id        = $row_main['package_id'];
+        $package_name      = $row_main['package_name'];
+        $title             = $row_main['title'];
+        $list_type         = $row_main['list_type'];
+        $msg               = $row_main['msg'];
+        $img_url           = $row_main['img_url'];
+        $tag               = $row_main['tag'];
+        $healthmall_id     = $row_main['healthmall_id'];
+        $pdf_link          = $row_main['pdf_link'];
+        $booking_from      = $row_main['booking_from'];
+        $booking_to        = $row_main['booking_to'];
+        $presription_id    = $row_main['presription_id'];
+        $article_id        = $row_main['article_id'];
+        $med_video_id      = $row_main['med_video_id'];
+        $tag_url           = $row_main['tag_image_url'];
+        
+        $s1 = "INSERT INTO other_notifications (user_id, listing_id, post_id, order_id, order_date, order_status, booking_id,invoice_no,notification_type,notification_date,package_id,package_name,title,list_type,msg,img_url,tag,healthmall_id,pdf_link,booking_from,booking_to,presription_id,article_id,med_video_id,noti_type)
+       VALUES ('0', '$listing_id', '$post_id', '$order_id', '$order_date', '$order_status','$booking_id','$invoice_no','$notification_type','$notification_date','$package_id','$package_name','$title','$list_type','$msg','$img_url','$tag','$healthmall_id','$pdf_link','$booking_from','$booking_to','$presription_id','$article_id','$med_video_id','$agent_type')";
+	   $r1 = mysqli_query($hconnection, $s1);
+        
+    }
+}
+?>

@@ -1,0 +1,493 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class PaymentModel extends CI_Model {
+
+    var $client_service = "frontend-client";
+    var $auth_key = "medicalwalerestapi";
+
+    public function check_auth_client() {
+        $client_service = $this->input->get_request_header('Client-Service', TRUE);
+        $auth_key = $this->input->get_request_header('Auth-Key', TRUE);
+        if ($client_service == $this->client_service && $auth_key == $this->auth_key) {
+            return true;
+        } else {
+            return json_output(401, array(
+                'status' => 401,
+                'message' => 'Unauthorized.'
+            ));
+        }
+    }
+
+    public function auth() {
+        date_default_timezone_set('Asia/Kolkata');
+        $users_id = $this->input->get_request_header('User-ID', TRUE);
+        $token = $this->input->get_request_header('Authorizations', TRUE);
+        $q = $this->db->select('expired_at')->from('api_users_authentication')->where('users_id', $users_id)->where('token', $token)->get()->row();
+        if ($q == "") {
+            return json_output(401, array(
+                'status' => 401,
+                'message' => 'Unauthorized.'
+            ));
+        } else {
+            if ($q->expired_at < date('Y-m-d H:i:s')) {
+                return json_output(401, array(
+                    'status' => 401,
+                    'message' => 'Your session has been expired.'
+                ));
+            } else {
+                $updated_at = date('Y-m-d H:i:s');
+                $expired_at = '2030-11-12 08:57:58';
+                $this->db->where('users_id', $users_id)->where('token', $token)->update('api_users_authentication', array(
+                    'expired_at' => $expired_at,
+                    'updated_at' => $updated_at
+                ));
+                return array(
+                    'status' => 200,
+                    'message' => 'Authorized.'
+                );
+            }
+        }
+    }
+
+    public function encrypt($str) {
+        echo $str;
+        $this->key = hash('MD5', '8655328655mdwale', true);
+        $this->iv = hash('MD5', 'mdwale8655328655', true);
+        $module = mcrypt_module_open(MCRYPT_RIJNDAEL_128, '', MCRYPT_MODE_CBC, '');
+        mcrypt_generic_init($module, $this->key, $this->iv);
+        $block = mcrypt_get_block_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC);
+        $pad = $block - (strlen($str) % $block);
+        $str .= str_repeat(chr($pad), $pad);
+        $encrypted = mcrypt_generic($module, $str);
+        mcrypt_generic_deinit($module);
+        mcrypt_module_close($module);
+        return base64_encode($encrypted);
+    }
+
+    public function decrypt($str) {
+        $this->key = hash('MD5', '8655328655mdwale', true);
+        $this->iv = hash('MD5', 'mdwale8655328655', true);
+        $module = mcrypt_module_open(MCRYPT_RIJNDAEL_128, '', MCRYPT_MODE_CBC, '');
+        mcrypt_generic_init($module, $this->key, $this->iv);
+        $str = mdecrypt_generic($module, base64_decode($str));
+        mcrypt_generic_deinit($module);
+        mcrypt_module_close($module);
+        $slast = ord(substr($str, -1));
+        $str = substr($str, 0, strlen($str) - $slast);
+        return $str;
+    }
+
+    public function insert_payment_status($user_id, $listing_id, $trans_id, $status, $type, $order_id, $amount, $status_mesg, $discount, $cashback, $payment_type) {
+        
+      
+        date_default_timezone_set('Asia/Kolkata');
+        $date = date('Y-m-d H:i:s');
+        
+        $Expire_date = date("Y-m-d H:i:s", strtotime(date("Y-m-d H:i:s", strtotime($date)) . " + 1 year"));
+        
+        $appointment_array = array(
+            'user_id'       => $user_id,
+            'listing_id'    => $listing_id,
+            'trans_id'      => $trans_id,
+            'status'        => $status,
+            'type'          => $type,
+            'order_id'      => $order_id,
+            'amount'        => $amount,
+            'status_message'=> $status_mesg,
+            'discount'      => $discount,
+            'cashback'      => $cashback,
+            'created_at'    => $date,
+            'payment_method'=> $payment_type
+        );
+        
+        $upadte_ledger_array = array(
+            'order_id'       => $order_id,
+            'trans_id'       => $trans_id,
+            'trans_type'     => '0',
+            'amount'         => $amount
+        );
+        
+        $upadte_user_points = array(
+            'user_id'        => $user_id,
+            'trans_id'       => $trans_id,
+            'points'         => $amount,
+            'created_at'     => $date,
+            'expire_at'      => $Expire_date,    
+            'status'         => 'active',
+        );
+        
+        $this->db->insert('payment_status_master', $appointment_array);
+        $this->db->insert('user_ledger',$upadte_ledger_array);
+        $this->db->insert('user_points', $upadte_user_points);
+        
+        if($status == 1){
+        $sql = "UPDATE doctor_booking_master SET status = 5 WHERE order_id = '$order_id'";    
+        }
+        
+        
+        return array(
+            'status' => 201,
+            'message' => 'success'
+        );
+    }
+    
+     public function get_payment_status($id,$mode){
+        
+        //echo "SELECT * FROM `payment_status_master` WHERE order_id= '$id'"; 
+        $query = $this->db->query("SELECT * FROM `payment_status_master` WHERE order_id= '$id'");
+        $raw = $query->row();
+        //print_r($raw);
+        //die();
+        date_default_timezone_set('Asia/Kolkata');
+        $date = date('Y-m-d H:i:s');
+        /*echo $raw->amount;
+        echo $raw->discount;
+        echo $raw->order_id;
+        echo $raw->trans_id;
+        echo $raw->creadit_debit;*/
+        
+        if($mode == 'add'){
+            
+            //User Ledger
+            $upadte_user_ledger_array = array(
+               
+                'user_id'       => $raw->user_id,
+                'listing_id'    => $raw->listing_id,
+                'order_id'       => $raw->order_id,
+                'trans_id'       => $raw->trans_id,
+                'trans_type'     => 1,
+                'trans_time'     => $date,
+                'trans_mode'     => $raw->payment_method,
+                'vendor_category'=> $raw->type,
+                'amount'=> $raw->amount
+            );
+            
+            
+            //Vendor Ledger
+            $upadte_vendor_ledger_array = array(
+                'user_id'       => $raw->user_id,
+                'listing_id'    => $raw->listing_id,
+                'order_id'       => $raw->order_id,
+                'trans_id'       => $raw->trans_id,
+                'trans_type'     => 0,
+                'trans_time'     => $date,
+                'trans_mode'     => $raw->payment_method,
+                'vendor_category'=> $raw->type,
+                'amount'=> $raw->amount
+            );
+            $this->db->insert('user_ledger', $upadte_user_ledger_array);
+            $this->db->insert('vendor_ledger', $upadte_vendor_ledger_array);
+        }else{
+            
+            //User Ledger
+            $upadte_user_ledger_array = array(
+                 'user_id'       => $raw->user_id,
+                'listing_id'    => $raw->listing_id,
+                'order_id'       => $raw->order_id,
+                'trans_id'       => $raw->trans_id,
+                'trans_type'     => 0,
+                'trans_time'     => $date,
+                'trans_mode'     => $raw->payment_method,
+                'vendor_category'=> $raw->type,
+                'amount'=> $raw->amount
+            );
+            $this->db->insert('user_ledger', $upadte_user_ledger_array);
+            
+            //Vendor Ledger
+            $upadte_vendor_ledger_array = array(
+                'user_id'       => $raw->user_id,
+                'listing_id'    => $raw->listing_id,
+                'order_id'       => $raw->order_id,
+                'trans_id'       => $raw->trans_id,
+                'trans_type'     => 1,
+                'trans_time'     => $date,
+                'trans_mode'     => $raw->payment_method,
+                'vendor_category'=> $raw->type,
+                'amount'=> $raw->amount
+            );
+            $this->db->insert('vendor_ledger', $upadte_vendor_ledger_array);
+        }
+        
+        if($raw->status_message == 'success'){
+            $amount = $raw->amount;
+            $discount = $raw->discount;
+            $orderid = $raw->order_id;
+            $discount_rupee = $amount_saved = $discount * $amount / 100;
+            $this->db->query("update user_ledger set discount_rupee='$discount_rupee',discount='$discount',amount_saved='$amount_saved' WHERE order_id='$orderid'");
+        }
+        
+        return array(
+            'status' => 201,
+            'message' => 'success'
+        );
+    }
+    
+    public function get_user_ledger_details($user_id){
+        $debit_list =array();
+        $credit_list =array();
+        $failure_list = array();
+        
+        $query_debit = $this->db->query("SELECT * FROM user_ledger WHERE user_id='$user_id' AND trans_type = '1' order by id DESC");
+        $query_balance = $this->db->query("SELECT * FROM user_ledger_balance WHERE user_id='$user_id'");
+        $raw = $query_balance->row();
+        $count_debit = $query_debit->num_rows();
+        if ($count_debit > 0) {
+
+            foreach ($query_debit->result_array() as $row) {
+                
+                $order_id      = $row['order_id'];
+                $trans_id       = $row['trans_id'];
+                $trans_type     = $row['trans_type'];
+                $amount        = $row['amount'];
+                $trans_time     = $row['trans_time'];
+                
+                 $debit_list[] = array(
+                    'order_id' => $order_id,
+                    'trans_id' => $trans_id,
+                    'trans_type' => $trans_type,
+                    'amount' => $amount,
+                    'trans_time'=>$trans_time
+                   
+                );
+                $debit_new[] = array('Balance' => $raw->ledger_balance,'debit_list' => $debit_list);
+            }
+            
+        }        
+             $query_credit = $this->db->query("SELECT * FROM user_ledger WHERE user_id='$user_id' AND trans_type = '0' order by id DESC");
+
+        $count_credit = $query_credit->num_rows();
+        if ($count_credit > 0) {
+
+            foreach ($query_credit->result_array() as $row) {
+                
+                $order_id      = $row['order_id'];
+                $trans_id       = $row['trans_id'];
+                $trans_type     = $row['trans_type'];
+                $amount        = $row['amount'];
+                $trans_time     = $row['trans_time'];
+                
+                 $credit_list[] = array(
+                    'order_id' => $order_id,
+                    'trans_id' => $trans_id,
+                    'trans_type' => $trans_type,
+                    'amount' => $amount,
+                    'trans_time'=>$trans_time
+                   
+                );
+                $credit_new[] = array('Balance' => $raw->ledger_balance,'credit_list' => $credit_list);
+            }
+           
+        }
+        
+        $query_failure = $this->db->query("SELECT * FROM user_ledger WHERE user_id='$user_id' AND trans_type = '2' order by id DESC");
+
+        $count_failure = $query_failure->num_rows();
+        if ($count_failure > 0) {
+
+            foreach ($query_failure->result_array() as $row) {
+                
+                $order_id      = $row['order_id'];
+                $trans_id       = $row['trans_id'];
+                $trans_type     = $row['trans_type'];
+                $amount        = $row['amount'];
+                $trans_time     = $row['trans_time'];
+                
+                 $failure_list[] = array(
+                    'order_id' => $order_id,
+                    'trans_id' => $trans_id,
+                    'trans_type' => $trans_type,
+                    'amount' => $amount,
+                    'trans_time'=>$trans_time
+                   
+                );
+            }
+           
+           
+        }
+     
+        $ledger_details = array("credit"=>"","debit"=>"","failure"=>"");
+        $ledger_details['credit'] =  $credit_new;
+        $ledger_details['debit'] =  $debit_new;
+        $ledger_details['failure'] =  $failure_list;
+        
+      return $ledger_details;
+        
+    }
+    
+    
+    
+    public function get_vendor_ledger_details($user_id){
+        $debit_list =array();
+        $credit_list =array();
+        $failure_list = array();
+        
+        $query_debit = $this->db->query("SELECT * FROM vendor_ledger WHERE user_id='$user_id' AND trans_type = '1' order by id DESC");
+
+        $count_debit = $query_debit->num_rows();
+        if ($count_debit > 0) {
+
+            foreach ($query_debit->result_array() as $row) {
+                
+                $order_id      = $row['order_id'];
+                $trans_id       = $row['trans_id'];
+                $trans_type     = $row['trans_type'];
+                $amount        = $row['amount'];
+                
+                 $debit_list[] = array(
+                    'order_id' => $order_id,
+                    'trans_id' => $trans_id,
+                    'trans_type' => $trans_type,
+                    'amount' => $amount
+                   
+                );
+            }
+            
+        }        
+             $query_credit = $this->db->query("SELECT * FROM vendor_ledger WHERE user_id='$user_id' AND trans_type = '0' order by id DESC");
+
+        $count_credit = $query_credit->num_rows();
+        if ($count_credit > 0) {
+
+            foreach ($query_credit->result_array() as $row) {
+                
+                $order_id      = $row['order_id'];
+                $trans_id      = $row['trans_id'];
+                $trans_type    = $row['trans_type'];
+                $amount        = $row['amount'];
+                
+                 $credit_list[] = array(
+                    'order_id' => $order_id,
+                    'trans_id' => $trans_id,
+                    'trans_type' => $trans_type,
+                    'amount' => $amount
+                   
+                );
+            }
+           
+           
+        }
+        
+        $query_failure = $this->db->query("SELECT * FROM vendor_ledger WHERE user_id='$user_id' AND trans_type = '2' order by id DESC");
+
+        $count_failure = $query_failure->num_rows();
+        if ($count_failure > 0) {
+
+            foreach ($query_failure->result_array() as $row) {
+                
+                $order_id      = $row['order_id'];
+                $trans_id       = $row['trans_id'];
+                $trans_type     = $row['trans_type'];
+                $amount        = $row['amount'];
+                
+                $failure_list[] = array(
+                    'order_id' => $order_id,
+                    'trans_id' => $trans_id,
+                    'trans_type' => $trans_type,
+                    'amount' => $amount
+                );
+            }
+           
+           
+        }
+     
+        $ledger_details = array("credit"=>"","debit"=>"","failure"=>"");
+        $ledger_details['credit'] =  $credit_list;
+        $ledger_details['debit'] =  $debit_list;
+        $ledger_details['failure'] =  $failure_list;
+        
+        return $ledger_details;
+        
+    }
+    
+    
+    public function convert_redeem_points($user_id, $redeem){
+        
+        if($redeem == 'yes'){
+            
+            $querys = $this->db->query("UPDATE `user_points` SET `status`='converted' WHERE user_id='$user_id' and status='active'");
+            if($querys){
+                return array(
+                    'status' => 201,
+                    'message' => 'success'
+                );
+            }
+        }
+        
+    }
+    
+    public function convert_user_points_to_amount($user_id){
+        
+        $querys = $this->db->query("SELECT sum(points) as total_points FROM user_points WHERE user_id='$user_id' and status='active'");
+        $count_failure = $querys->num_rows();
+        if ($count_failure > 0) {
+            
+            foreach ($querys->result_array() as $row) {
+               $tot_points =  $row['total_points'];
+            }
+         if($tot_points > 0) {
+               
+            $pnts_rate = $this->db->select('rate')->where('id', 1)->get('points_rate')->row();
+            if (!empty($pnts_rate)) {
+                $rate = $pnts_rate->rate;
+            } else {
+                $rate = "";
+            }
+            
+            $convert_rs = round($tot_points/$rate);
+            
+            $exist_user_or_not = $this->db->query("SELECT user_id FROM user_ledger_balance WHERE user_id='$user_id'");
+            $count_ = $exist_user_or_not->num_rows();
+            if ($count_ > 0) {    
+                //UPDATE CONVERTED AMOOUNT TO USER LEDGER BALANCE TABLE    
+                $querys = $this->db->query("UPDATE `user_ledger_balance` SET `ledger_balance`='$convert_rs' WHERE user_id='$user_id'");
+            }else{
+                //INSERT CONVERTED AMOOUNT TO USER LEDGER BALANCE TABLE    
+                $upadte_user_ledger_amnt_array = array(
+                    'user_id'        => $user_id,
+                    'ledger_balance' => $convert_rs,
+                );
+                $querys = $this->db->insert('user_ledger_balance', $upadte_user_ledger_amnt_array);
+            }
+            
+            if($querys){
+                //UPDATE USER POINT STATUS
+                $querys_update = $this->db->query("UPDATE `user_points` SET `status`='converted' WHERE user_id='$user_id' and status='active'");
+                    if($querys_update){
+                
+                    //$new_trans = mt_rand(100000, 999999); 
+                    $new_key = uniqid();
+                        
+                    $upadte_user_ledger_array = array(
+                        'user_id'        => $user_id,
+                        'order_id'       => '-',
+                        'trans_id'       => 'BCH'.$new_key,
+                        'trans_type'     => 0,
+                        'amount'         => $convert_rs
+                    );
+                    $inserted = $this->db->insert('user_ledger', $upadte_user_ledger_array);        
+                    if($inserted){    
+                        return array(
+                            'status' => 201,
+                            'message' => 'success',
+                            'converted_amount' => $convert_rs
+                        );
+                    }
+                }
+            }
+            
+            
+        }else{
+            return array(
+                'status' => 201,
+                'message' => 'success',
+                'converted_amount' => 'no points found'
+            );
+        }
+            
+            
+            
+        }
+        
+    }
+}

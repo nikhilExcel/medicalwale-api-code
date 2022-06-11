@@ -1,0 +1,6 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+
+# Rewrite for index.php?share_url=Title-Goes-Here
+RewriteRule ([0-9a-zA-Z_-]+)$ index.php?share_url=$1 [NC,L]

@@ -1,0 +1,94 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class AdsModel extends CI_Model {
+
+    public function ads_list($user_id) {
+        $query = $this->db->query("SELECT id,ad_title,ad_descr,ad_link,ad_img,ad_date_add FROM ads ORDER BY rand()");			
+        $count = $query->num_rows(); 
+        if ($count > 0) {
+            foreach ($query->result_array() as $row) {
+                $ad_img = $row['ad_img'];
+				$ad_date_add = $row['ad_date_add'];	
+                $image= 'http://ad.sandboxstg.medicalwale.com/images/'.$ad_img;
+                $resultpost[] = array(
+                    'id' => $row['id'],
+                    'title' => $row['ad_title'],
+                    'description' => $row['ad_descr'],
+                    'link' => $row['ad_link'],
+                    'image' => $image
+                );
+            }
+			$resultpost = array(
+                "status" => 200,
+                "message" => "success",
+                "count" => $count,
+                "data" => $resultpost
+            );
+        } else {
+            $resultpost = array(
+                "status" => 200,
+                "message" => "success",
+                "count" => 0,
+                "data" => array()
+            );
+        }
+        return $resultpost;
+    }
+
+    public function add_click($user_id,$ads_id) {
+        date_default_timezone_set('Asia/Kolkata');
+        $date = date('Y-m-d H:i:s');
+		$total_query = $this->db->query("SELECT ad_views,ad_clicks FROM `sponsored_advertisements` where id='$ads_id' limit 1");			
+        $get_list   = $total_query->row_array();
+        $views = $get_list['ad_views'];
+        $ads_views = $views+1;
+        
+        $clicks = $get_list['ad_clicks'];
+        $ad_clicks = $clicks+1;
+        
+		$querys = $this->db->query("UPDATE `sponsored_advertisements` SET `ad_views`='$ads_views',`ad_clicks`='$ad_clicks' WHERE id='$ads_id'");
+		$data = array(
+			'user_id'		=> $user_id,
+			'ads_id' 		=> $ads_id
+		);
+		$this->db->insert("sponsored_advertisements_clicks", $data);
+        return array(
+            'status' => 200,
+            'message' => 'success'
+        );
+    }
+	
+	public function add_views($user_id,$ads_id) {
+        date_default_timezone_set('Asia/Kolkata');
+        $date = date('Y-m-d H:i:s');
+		$total_query = $this->db->query("SELECT ad_views FROM `sponsored_advertisements` where id='$ads_id' limit 1");			
+        $get_list   = $total_query->row_array();
+        $views = $get_list['ad_views'];
+        $ads_views = $views+1;
+		$querys = $this->db->query("UPDATE `sponsored_advertisements` SET `ad_views`='$ads_views' WHERE id='$ads_id'");
+		$data = array(
+			'user_id'		=> $user_id,
+			'ads_id' 		=> $ads_id
+		);
+		$this->db->insert("sponsored_advertisements_views", $data);
+        return array(
+            'status' => 200,
+            'message' => 'success'
+        );
+    }
+    
+    
+	public function update_views($user_id,$ads_id,$vid_current_time) {
+        date_default_timezone_set('Asia/Kolkata');
+        $date = date('Y-m-d H:i:s');
+		$querys = $this->db->query("UPDATE `sponsored_advertisements_views` SET `watch_time`='$vid_current_time' WHERE ads_id='$ads_id' and user_id='$user_id'");
+        return array(
+            'status' => 200,
+            'message' => 'success'
+        );
+    }
+
+
+}

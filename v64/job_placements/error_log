@@ -1,0 +1,758 @@
+[01-Mar-2019 11:26:29 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/app/user.php on line 229
+[01-Mar-2019 11:26:32 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[01-Mar-2019 11:27:16 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/app/user.php on line 229
+[01-Mar-2019 11:27:17 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[01-Mar-2019 11:27:57 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/app/user.php on line 229
+[01-Mar-2019 11:28:49 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v46/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Mar-2019 11:08:45 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[12-Mar-2019 11:10:09 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[12-Mar-2019 11:10:37 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Mar-2019 05:28:28 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[25-Mar-2019 11:38:11 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[25-Mar-2019 11:38:25 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[25-Mar-2019 11:43:51 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[27-Mar-2019 12:22:42 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[27-Mar-2019 12:23:15 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[27-Mar-2019 12:27:21 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[27-Mar-2019 12:28:53 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[27-Mar-2019 12:29:31 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[27-Mar-2019 12:29:33 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 07:30:29 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 07:47:59 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 07:48:07 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 07:48:11 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 07:48:31 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 07:49:15 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 07:54:15 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 07:55:38 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 07:55:41 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 08:56:36 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 08:56:38 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 08:56:43 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 08:56:49 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 08:56:51 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 08:56:56 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 08:57:10 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 08:58:44 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:09:34 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:09:37 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:09:39 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:12:04 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:17:39 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 09:17:42 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:19:29 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 09:32:16 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 09:32:18 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:32:21 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:32:24 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:32:26 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:32:28 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:50:18 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 09:50:24 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 09:50:34 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 10:08:28 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 10:28:09 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 10:28:12 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 10:28:17 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 10:42:47 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 10:48:20 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 11:09:20 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 11:09:26 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:09:35 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 11:09:52 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:10:49 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:27:58 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:28:04 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:29:43 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 11:31:31 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 11:31:34 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 11:31:41 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:32:12 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:32:21 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 229
+[28-Mar-2019 11:32:24 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 11:34:49 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function fetchAll() on boolean
+File: /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php
+Line: 135
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(325): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/Route.php(297): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(443): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(337): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/vendor/slim/slim/Slim/App.php(298): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/index.php(25): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[28-Mar-2019 13:05:15 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 228
+[28-Mar-2019 13:29:16 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 228
+[02-Apr-2019 06:46:55 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v47/job_placements/app/user.php on line 228
+[12-Aug-2019 10:20:09 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v51/job_placements/app/user.php on line 228
+[12-Aug-2019 10:20:23 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v51/job_placements/app/user.php on line 228

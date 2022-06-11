@@ -1,0 +1,2 @@
+[21-Feb-2019 11:27:26 UTC] PHP Fatal error:  Cannot redeclare MedicalMall_model_2::get_user_ledger_details() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/hm6/appx/models/MedicalMall_model_2.php on line 2591
+[10-Apr-2019 07:31:39 UTC] PHP Fatal error:  Cannot redeclare MedicalMall_model_2::get_products1() in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/hm7/appx/models/MedicalMall_model_2.php on line 1109

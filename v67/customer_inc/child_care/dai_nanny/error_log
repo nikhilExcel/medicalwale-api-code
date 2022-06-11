@@ -1,0 +1,1 @@
+[15-Jun-2019 14:15:31 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/h8so2sh3q97n/public_html/sandboxapi.medicalwale.com/v50/customer_inc/child_care/dai_nanny/dai_nanny_edit_review.php on line 16

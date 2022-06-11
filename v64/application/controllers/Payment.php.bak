@@ -1,0 +1,234 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Payment extends CI_Controller {
+
+	public function __construct()
+    {
+        parent::__construct();
+         $this->load->model('PaymentModel');
+        /*
+        $check_auth_client = $this->SexeducationModel->check_auth_client();
+		if($check_auth_client != true){
+			die($this->output->get_output());
+		}
+		*/
+    }
+
+	public function index()
+	{
+	    json_output(400,array('status' => 400,'message' => 'Bad request.'));
+	}
+	
+    public function add_payment_status()
+	{
+	  //echo "dasd";
+		$method = $_SERVER['REQUEST_METHOD'];
+		if($method != 'POST'){
+			json_output(400,array('status' => 400,'message' => 'Bad request.'));
+		} else {
+			$check_auth_client = $this->PaymentModel->check_auth_client();
+			if($check_auth_client == true){
+		        $response = $this->PaymentModel->auth();
+		        if($response['status'] == 200){
+					$params = json_decode(file_get_contents('php://input'), TRUE);
+					//print_r($params);
+					if ($params['user_id'] == "" || $params['listing_id'] == "" || $params['trans_id'] == "" || $params['status'] == "" || $params['type'] == "" || $params['amount'] == "" || $params['status_mesg'] == "" || $params['payment_type'] == "" ) {
+						$resp = array('status' => 400,'message' =>  'please enter fields');
+					} else {
+					    $user_id        = $params['user_id'];
+					    $listing_id     = $params['listing_id'];
+					    $trans_id       = $params['trans_id'];
+					    $status         = $params['status'];
+					    $type           = $params['type'];
+					    $order_id       = date("YmdHis");
+					    $amount         = $params['amount'];
+					    $status_mesg    = $params['status_mesg'];
+					    $discount       = $params['discount'];
+					    $cashback       = $params['cashback'];
+					    $payment_type   = $params['payment_type'];
+					    
+		        		$resp           = $this->PaymentModel->insert_payment_status($user_id, $listing_id, $trans_id, $status, $type, $order_id, $amount, $status_mesg, $discount, $cashback, $payment_type);
+					}
+					    simple_json_output($resp);
+				
+		        }
+			}
+		}
+	}
+	
+    public function add_both_ledger()
+	{
+	    //print($_POST);
+	   // die();
+	    //echo "dasd";
+		$method = $_SERVER['REQUEST_METHOD'];
+		if($method != 'POST'){
+			json_output(400,array('status' => 400,'message' => 'Bad request.'));
+		} else {
+			$check_auth_client = $this->PaymentModel->check_auth_client();
+			if($check_auth_client == true){
+		        $response = $this->PaymentModel->auth();
+		        if($response['status'] == 200){
+					$params = json_decode(file_get_contents('php://input'), TRUE);
+					//print_r($params);
+				//	die();
+					if ($params['id'] == "" || $params['mode'] == "" ) {
+						$resp = array('status' => 400,'message' =>  'please enter fields');
+					} else {
+					    $id             = $params['id'];
+					    $mode             = $params['mode'];
+			            $comp           = $this->PaymentModel->get_payment_status($id,$mode);       
+			         }
+					    simple_json_output($comp);
+				
+		        }
+			}
+		}
+	}	
+	
+	public function get_user_ledger_details(){
+	    
+	     //echo "dasd";
+		$method = $_SERVER['REQUEST_METHOD'];
+		if($method != 'POST'){
+			json_output(400,array('status' => 400,'message' => 'Bad request.'));
+		} else {
+			$check_auth_client = $this->PaymentModel->check_auth_client();
+			if($check_auth_client == true){
+		        $response = $this->PaymentModel->auth();
+		        if($response['status'] == 200){
+					$params = json_decode(file_get_contents('php://input'), TRUE);
+					//print_r($params);
+					if ($params['user_id'] == "") {
+						$resp = array('status' => 400,'message' =>  'please enter fields');
+					} else {
+					    $user_id        = $params['user_id'];
+
+		        		$ledger_details           = $this->PaymentModel->get_user_ledger_details($user_id);
+					}
+					    json_outputs($ledger_details);
+				
+		        }
+			}
+		}
+	    
+	}
+	
+	public function get_vendor_ledger_details(){
+	    
+	     //echo "dasd";
+		$method = $_SERVER['REQUEST_METHOD'];
+		if($method != 'POST'){
+			json_output(400,array('status' => 400,'message' => 'Bad request.'));
+		} else {
+			$check_auth_client = $this->PaymentModel->check_auth_client();
+			if($check_auth_client == true){
+		        $response = $this->PaymentModel->auth();
+		        if($response['status'] == 200){
+					$params = json_decode(file_get_contents('php://input'), TRUE);
+					//print_r($params);
+					if ($params['user_id'] == "") {
+						$resp = array('status' => 400,'message' =>  'please enter fields');
+					} else {
+					    $user_id        = $params['user_id'];
+
+		        		$ledger_details           = $this->PaymentModel->get_vendor_ledger_details($user_id);
+					}
+					    json_outputs($ledger_details);
+				
+		        }
+			}
+		}
+	    
+	}
+	
+/*	public function user_points_redeem(){
+	    
+	     //echo "dasd";
+		$method = $_SERVER['REQUEST_METHOD'];
+		if($method != 'POST'){
+			json_output(400,array('status' => 400,'message' => 'Bad request.'));
+		} else {
+			$check_auth_client = $this->PaymentModel->check_auth_client();
+			if($check_auth_client == true){
+		        $response = $this->PaymentModel->auth();
+		        if($response['status'] == 200){
+					$params = json_decode(file_get_contents('php://input'), TRUE);
+					//print_r($params);
+					if ($params['user_id'] == "" || $params['redeem'] == "") {
+						$resp = array('status' => 400,'message' =>  'please enter fields');
+					} else {
+					    $user_id        = $params['user_id'];
+					    $redeem        = $params['redeem'];
+
+		        		$ledger_details           = $this->PaymentModel->convert_redeem_points($user_id, $redeem);
+					}
+					    simple_json_output($ledger_details);
+				
+		        }
+			}
+		}
+	    
+	}	*/
+	
+	public function convert_user_points_amount(){
+	   $method = $_SERVER['REQUEST_METHOD'];
+		if($method != 'POST'){
+			json_output(400,array('status' => 400,'message' => 'Bad request.'));
+		} else {
+			$check_auth_client = $this->PaymentModel->check_auth_client();
+			if($check_auth_client == true){
+		        $response = $this->PaymentModel->auth();
+		        if($response['status'] == 200){
+					$params = json_decode(file_get_contents('php://input'), TRUE);
+					print_r($params);
+					if ($params['user_id'] == "" ) {
+						$resp = array('status' => 400,'message' =>  'please enter fields');
+					} else {
+					    $user_id        = $params['user_id'];
+					   
+		        		$ledger_          = $this->PaymentModel->convert_user_points_to_amount($user_id);
+					}
+					   simple_json_output($ledger_);
+				
+		        }
+			}
+		} 
+	}
+	/*public function reverse_both_ledger()
+	{
+	    //print($_POST);
+	   // die();
+	    //echo "dasd";
+		$method = $_SERVER['REQUEST_METHOD'];
+		if($method != 'POST'){
+			json_output(400,array('status' => 400,'message' => 'Bad request.'));
+		} else {
+			$check_auth_client = $this->PaymentModel->check_auth_client();
+			if($check_auth_client == true){
+		        $response = $this->PaymentModel->auth();
+		        if($response['status'] == 200){
+					$params = json_decode(file_get_contents('php://input'), TRUE);
+					//print_r($params);
+				//	die();
+					if ($params['id'] == "" ) {
+						$resp = array('status' => 400,'message' =>  'please enter fields');
+					} else {
+					    
+					    $id             = $params['id'];
+					    $mode             = $params['mode'];
+			            $comp           = $this->PaymentModel->get_payment_rever($id,$mode);       
+			        }
+					
+					simple_json_output($comp);
+				
+		        }
+			}
+		}
+	}*/	
+	//listing_id is ayurveda's user id
+	
+	
+	
+}
